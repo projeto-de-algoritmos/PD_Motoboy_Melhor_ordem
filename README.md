@@ -64,7 +64,7 @@ Joseph é um motociclista que trabalha fazendo entregas para uma pizzaria. Seu s
 
     1° Entre na pasta src
     2° Execute: python3 main.py
-        3° Escolha o jogo(1-Bolhas e Baldes ou 2-Jogo do Tijolo)
+        3° Escolha o jogo(1-Motoboy ou 2-Jogo do Tijolo)
             Motoboy:
                 1° Aguarde a janela carregar
                 2° Adicione a sequencia de numeros conforme as regras
