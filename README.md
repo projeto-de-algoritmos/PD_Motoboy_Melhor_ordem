@@ -1,13 +1,9 @@
 Temas:
  - PD
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
 
 # Motoboy e
 
-**Conteúdo da Disciplina**: D&C<br>
+**Conteúdo da Disciplina**: PD<br>
 
 ## Alunos
 |Matrícula | Aluno |
