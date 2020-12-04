@@ -4,7 +4,7 @@ Temas:
 # Motoboy e Melhor ordem
 
 
-**Conteúdo da Disciplina**: Programação Dinâmica>
+**Conteúdo da Disciplina**: Programação Dinâmica
 
 ## Alunos
 |Matrícula | Aluno |
@@ -58,7 +58,7 @@ O colégio de Nlognônia descobriu que você irá participar de uma maratona de 
 
 ## Uso 
 
-[Instruções em video]( )
+[Instruções em video](https://www.dropbox.com/s/vehsv3k0opfx4o2/proj_alg%20on%202020-12-04%2023-23.mp4?dl=0)
 
 
 ### Rodar a Aplicação
@@ -68,11 +68,11 @@ O colégio de Nlognônia descobriu que você irá participar de uma maratona de 
                 3° Escolha o jogo(1-Motoboy ou 2-Melhor ordem)
                 Motoboy:
                         1° Aguarde a janela carregar
-                        2° Adicione a sequencia de numeros conforme as regras
+                        2° Adicione a sequência de numeros conforme as regras
                         3° Precione o botão "Jogar"
                 Melhor ordem:
                         1° Aguarde a janela carregar
-                        2° Adicione a sequencia de numeros
+                        2° Adicione a sequência de números
                         3° Precione o botão "Buscar"
 
 ## Referências

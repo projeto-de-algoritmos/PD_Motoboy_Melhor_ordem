@@ -70,8 +70,8 @@ def clicked():
 
     try:
         # valorEntrada = valorEntrada.split(',')
-        entrada = []
-        # entrada = ""
+        # entrada = []
+        entrada = ""
         for i in valorEntrada:
 
             if not re.match("[0-9, \[ \]]", i):
@@ -79,8 +79,9 @@ def clicked():
                 alerta=1
                 break
 
-            if re.match("[0-9]",i):
-                entrada.append(int(i))
+            if re.match("[0-9 ]",i):
+                # entrada.append(int(i))
+                entrada = entrada +i
         print(entrada)
                 
 
@@ -94,9 +95,18 @@ def clicked():
         texto = erro
 
     else:
+        array = []
+
+        # entrada = "6 10 15 5 23 4 21 2 16 4 19 5 18 2"
+
+        aux = entrada.split(' ')
+
+        for i in aux:
+            array.append(int(i))
+        print(array)
 
 
-        result = functions.subsequence(len(entrada),entrada)
+        result = functions.subsequence(len(array),array)
         print(result)
 
         if result:
