@@ -20,8 +20,6 @@ lbl = Label(janela, text="Tele entregas pizza",fg="black",font=('Arial',15))
 lbl.place(x=100,y=15)
 lbl1 = Label(janela, text="Digite quais as entregas a serem feitas.",fg="black",font=('Arial',13))
 lbl1.place(x=65,y=47)
-# lbl2 = Label(janela, text="Não é necessario indicar a quantidade de entradas.", font=('Arial',11))
-# lbl2.place(x=10,y=80)
 lbl3 = Label(janela, text="Ex: 6 10 15 5 23 4 21 2 16 4 19 5 18 2", font=('Arial',11))
 lbl3.place(x=10,y=100)
 
@@ -32,11 +30,6 @@ resultadoLabel = Label(janela, text="Resultado",fg="black",font=('Arial',14))
 resultadoLabel.place(x=10,y=185)
 
 caixaTexto = Text(janela, height=12,width=61, font=('Arial',10))
-# caixaTextoJogador1 = Text(janela, height=1,width=61, font=('Arial',10))
-# caixaTextoJogador2 = Text(janela, height=1,width=61, font=('Arial',10))
-# caixaTextoJogador1.place(x=10, y=210)
-# caixaTextoJogador2.place(x=10, y=245)
-
 caixaTexto.place(x=10, y=210)
 
 nomeJogador1 = "Jogador numero 1"
@@ -86,8 +79,7 @@ def clicked():
     valorEntrada = inputEntrada.get()
 
     try:
-        # valorEntrada = valorEntrada.split(',')
-        # entrada = []
+
         entrada = ""
         for i in valorEntrada:
 
@@ -97,7 +89,7 @@ def clicked():
                 break
 
             if re.match("[0-9 ]",i):
-                # entrada.append(i)
+
                 entrada = entrada + i
 
     except:
@@ -119,17 +111,12 @@ def clicked():
 
         # 6 10 15 5 23 4 21 2 16 4 19 5 18 2
         # 7 8 10 4 12 4 20 3 22 3 21 2 15 5 38 2
-
-
-
-
+        
         array.append([int(aux[0]), int(aux[1])])
-
         num_pedidos = int(aux[0])
         num_pizzas_roberto = int(aux[1])
         aux.remove(aux[0])
         aux.remove(aux[0])
-
         inputInteiros = []
         cont = 0
 
